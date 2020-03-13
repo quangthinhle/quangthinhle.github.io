@@ -1,0 +1,146 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+nav {
+	background-color: #e4e4e4;
+	height: 40px ;
+	line-height: 40px;
+}
+
+nav .container > ul {
+	display: flex;
+	list-style: none;
+}
+
+nav ul li {
+	position: relative;
+	list-style: none;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #333;
+	display: block;
+}
+
+nav ul > li {
+	padding: 0 20px;
+	
+}
+
+nav > .container > ul > li > a {
+	border-bottom: 2px solid transparent;
+	
+	display: block;
+}
+
+nav ul li:hover {
+	background-color: #fff;
+}
+
+nav ul li:hover > a {
+	color: #a845de;
+	border-color: #a845de;
+}
+
+/* Menu thứ hai trở đi */
+nav ul ul,nav .mega-menu  {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	width: 180px;
+	border: 1px solid #000;
+	display: none;
+}
+
+/*Menu thứ 3 trở đi*/
+nav ul ul ul {
+	top: 0;
+	left: 100%;
+	margin: -1px 0 0; /* trừ border 1px cho thẳng hàng */ 
+}
+
+/*Hover */
+
+nav ul li:hover > ul {
+	display: block;
+}
+
+/* Mega menu*/
+nav .mega-menu {
+	width: 1000px;
+	max-width: 700px;
+	border: 1px solid #000;
+	padding: 10px 20px;
+	display: none;
+}
+
+/* hover hiện thị mega menu */
+nav ul li:hover .mega-menu { 
+	display: flex;
+}
+
+nav .mega-menu ul {
+	display: block;
+	position: unset;
+	border: none;
+}
+
+nav .mega-menu ul li:hover {
+	background-color: transparent;
+}
+
+/*TIPS*/
+main {
+    margin: 300px 0;
+}
+
+.btn {
+    position: relative;
+}
+
+.btn button {
+	padding: 0 20px;
+	display: inline-block;
+	line-height: 50px;
+	margin: 24px 0 0;
+	outline: 0;
+	background-color: #e4e4e4;
+	border: 0;
+	font-size: 20px;
+	border-radius: 8px;
+	cursor: pointer;
+}
+
+.tooltips {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    border: 1px solid #a845de;
+    padding: 30px;
+    border-radius: 8px;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 10000;
+    background-color: #a845de;
+    color: #fff;
+}
+
+.btn:hover .tooltips {
+	opacity: 1;
+	visibility: visible;
+}
+
+
+nav .mega-menu h3 {
+    font-size: 17px;
+    text-transform: lowercase;
+}

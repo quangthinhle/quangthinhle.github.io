@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.clr{
+    clear: both;
+}
+body{
+    background: #ebebeb;
+}
+header{
+    background: yellow;
+    height: 55px;
+
+}
+#main-wrap{
+    width: 1200px;
+    height: 55px;
+    margin: 0 auto;
+    background: black;
+}
+#main-wrap img{
+    float: left;
+    height: 55px;
+    width: 170px;
+}
+#main-wrap form{
+    float: left;
+    height: 35px;
+    width: 230px;
+
+}
+#main-wrap form input{
+    background: white;
+    width: 163px;
+    height: 33px;
+    margin-top: 0px;
+}
+#main-wrap form button{
+    background: blue;
+
+
+}
+#main-wrap  nav a{
+    float: left;
+    background: yellow;
+    height: 55px;
+    width: 88.88888px
+}
+#main-content{
+    width: 1200px;
+    margin: 0 auto;
+    background: white
+}
+#content{
+    float: left;
+    width: 900px;
+    margin-right: 10px;
+}
+#image-promotion{
+    background: red;
+    height: 190px;
+    margin-top: 10px;
+}
+#promotion div{
+    width: 20%;
+    height: 100px;
+    border: 1px solid black;
+    float: left;
+    margin-top: 10px;
+}
+#sidebar{
+    float: right;
+    width: 290px;
+    height: 300px;
+    margin-top: 10px;
+    background: green;
+} 
+#hot-promotion{
+    background: yellow;
+    height: 30px;
+    margin-top: 10px;
+    border-bottom: 1px solid black;
+}
+
+#product div{
+    float: left;
+    background: orchid;
+    width: 20%;
+    height: 240px;
+    border: 2px solid black;
+
+}
+#most-hot{
+    float: left;
+}
+#hot-phone{
+    background: yellow;
+    height: 30px;
+    margin-top: 10px;
+    border-bottom: 1px solid black;
+}
+
+#phone-product div a{
+    float: right;
+    margin: auto 10px;
+}
+#hot-phone-product-01 div {
+    float: left;
+    border: 1px solid black;
+}
+#products-1{
+    width: 480px;
+    height: 314.8px;
+    background: blueviolet;
+}
+.products{
+    width: 240px;
+    height: 314.8px;
+    background: blueviolet;
+}
+#hot-phone-product-02 div {
+    float: left;
+    border: 1px solid black;
+}
+#products-2{
+    width: 480px;
+    height: 314.8px;
+    background: blueviolet;
+    border: 2px solid green;
+}
+

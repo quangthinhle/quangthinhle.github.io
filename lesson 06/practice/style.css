@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    background: #FED700;
+    height: 55px;
+}
+#wrap-taskbar{
+    height: 55px;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+#logo-and-form{
+    width: 400px;
+    background: black;
+    height: 55px;
+    display: flex;
+}
+#logo-and-form img{
+    width: 170px;
+    background: yellow;
+}
+#logo-and-form>form{
+    width: 230px;
+    height: 35px;
+
+}
+[name="seach"]{
+    background: blue;
+    width: 162px;
+    height: 35px;
+}
+[name="seach"]+button{
+    width: 40px;
+    height: 35px;
+    margin: 0px;
+}
+ul#extension-link{
+    display: flex;
+    
+
+}
+ul#extension-link li{
+    display: block;
+    flex-shrink: 10;
+    height: 55px;
+    background: red;
+    border: 2px solid black;
+    
+}

@@ -1,0 +1,172 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+/* reset box model */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    background-color: red;
+}
+/* reset tag */
+/* a */
+a{
+    color: blue;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+input{
+    outline: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #373e43;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+#wrap-login{
+    display: flex;
+    height: 100%;
+    color: #373e43;
+
+}
+/* style for content left */
+#content-left{
+    display: flex;
+    align-items: flex-end;
+}
+#content-left{
+    flex: 2 0 0%;
+    background-color: #F7F6F1;
+}
+#content-left>div{
+    margin: 0 0 30px 30px;
+
+}
+/* style for content right main-login */
+#content-right{
+    flex: 1 0 0%;
+    background-color: #ffffff;
+}
+#main-login{
+    margin: 80px 70px auto 70px ;
+    
+}
+#main-login>img{
+    width: 150px;
+    height: 30px;
+}
+#main-login>form{
+    color: #7a8994;
+}
+#main-login>form>p{
+   margin: 20px auto 15px 0px;
+   font-family: sans-serif;
+   font-size: 14px;
+}
+#email-group,#password-group{
+    width: 356px;
+    height: 54px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin: 10px 0px;
+    padding: 7px 12px 4px;
+    text-transform: uppercase;
+    font-size: 10.5px;
+}
+#email-group>label,#password-group>label{
+    width: 100%;
+    height: 30%;
+    display: block;
+}
+#email-group>input,#password-group>input{
+    height: 50%;
+    width: 100%;
+    display: block;
+    margin: 10px 0px 0px;
+    border: none;
+}
+#password-group+div{
+    display: flex;
+    justify-content: space-between;
+}
+#main-login>form>div>button{
+    width: 120px;
+    height: 34.8px;
+    margin-top: 10px;
+    border-width: 1px;
+    padding: 6px 17px;
+    border-radius: 3px;
+    background-color: #007be8;
+    color: #ffffff;
+}
+#main-login>form>div>a{
+    height: 34.8px;
+    line-height: 34.8px;
+    display: block;
+
+}
+/* style for button facbook and google */
+#main-login>button{
+    display: block;
+    width: 100%;
+    margin: 15px 0px;
+}
+
+.btn{
+    width: 356px;
+    height: 36.8px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    padding: 6px 17px 6px 44px;
+    text-align: left;
+    font-size: 14px;
+    font-family: Arial;
+    color: #ffffff;
+}
+.btn.facebook{
+    background-color: #3b5998;
+}
+
+.btn.google{
+    background-color: #dd4b39;
+}
+/* style for sign-up */
+#wrapp-sign-up a,p{
+    display: inline-block;
+}
+#wrapp-sign-up{
+    color: #7a8994;
+}
+.btn{
+    position: relative;
+}
+#main-login button i {
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-right: 1px solid rgba(0,0,0,.2);
+    font-size: 20px;
+}
+/* hover */
+/* tag a */
+a:hover{
+    color: #0096EF;
+}
+/* sign in button */
+#main-login form button:hover{
+    background-color:#3395ED;
+}
+/* facebook sign in button */
+.btn.facebook:hover{
+    background-color: #2d4373;
+}
+.btn.google:hover{
+    background-color:#C23321;
+}

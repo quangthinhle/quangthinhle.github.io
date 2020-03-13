@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+.clr{
+    clear: both;
+}
+#sidebar{
+    float: left;
+    border: 1px solid black;
+    background: yellow;
+    width: 300px;
+}
+#content{
+    float: right;
+    border: 1px solid red;
+    background: green;
+    width: calc(100% - 300px);
+}

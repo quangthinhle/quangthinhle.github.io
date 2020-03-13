@@ -1,0 +1,282 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: #ebebeb;
+ 
+}
+header{
+    background: #FED700;
+    height: 55px;
+}
+#wrap-taskbar{
+    width: 1200px;
+    height: 55px;
+    margin: 0 auto;
+    display: flex;
+}
+#logo-form{
+    background: black;
+    width: 400px;
+    display: flex;
+}
+#logo-form img{
+    width: 170px;
+    height: 55px;
+}
+#logo-form form{
+    width: 230px;
+    height: 55px;
+}
+ul#extension{
+    width: 800px;
+    height: 55px;
+}
+
+ul#extension{
+   display: flex; 
+}
+ul#extension li {
+    display: block;
+    
+}
+
+.phone{
+    width: 76px;
+    height: 54px;
+}
+.table{
+    width: 65.6px;
+    height: 54.2px;
+}
+.laptop{
+    width: 65.6px;
+    height: 54px;
+}
+.accessories{
+    width: 65.6px;
+    height: 54.2px;
+}
+.clock{
+    width: 81.6px;
+    height: 54.2px;
+}
+.old-phone{
+    width: 81.6px;
+    height: 54px;
+}
+.news{
+    width: 81.6px;
+    height:54px;
+}
+.ask{
+    width: 66.4px;
+    height:54.4px;
+}
+.sim-card{
+    width: 84px;
+    height:54.4px;
+    border-left: 2px solid black;
+    
+}
+.different{
+    width: 112px;
+    height:54.4px;
+    border-left: 2px solid black;
+}
+
+/* /////////////////////// */
+
+section{
+    width: 1200px;
+    margin: 10px auto;
+    background: white;
+}
+#first-advertise{
+    width: 1200px;
+    margin: 10px auto;
+    background: #ebebeb;
+}
+#main-advertise{
+    margin: 0 auto;
+    display: flex;
+    
+}
+#top-content{
+    width: 800px;
+    height: 300px;
+    background: red;
+}
+
+#bot-content{
+    display: flex;
+}
+ul#bot-content{
+    display: flex;
+}
+ul#bot-content li{
+    display: block;
+    flex-grow: 1;
+    border: 1px solid red;
+    margin-top: 1px;
+    height: 100px;
+}
+#sidebar{
+    width: 390px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+#sidebar div{
+    flex-grow: 1;
+    background: green;
+}
+#sidebar img{
+    flex-grow: 1;
+    background: indigo;
+    border: 1px solid red;
+    margin-top: 10px;
+}
+#bot-advertise{
+   height: 55px;
+    margin-top: 10px;
+    background: red;
+}
+
+
+#hot-phoneTitle{
+    display: flex;
+    justify-content: space-between;
+    height: 44px;
+}
+#hot-phoneTitle ul li{
+    display: inline-block;
+}
+#hot-phone1{
+    display: flex;
+    height: 318px;
+    
+}
+#hot-phone1 div{
+    flex-grow: 1;
+    border: 1px solid black;
+}
+#hot-phone1 div:nth-child(1){
+    flex-grow: 2;
+}
+#hot-phone2{
+    display: flex;
+    height: 318px;
+    
+}
+#hot-phone2 div{
+    flex-grow: 1;
+    border: 1px solid black;
+}
+#hot-phone2 div:nth-child(1){
+    flex-grow: 2;
+}
+
+#hot-laptopTitle{
+    display: flex;
+    justify-content: space-between;
+    height: 44px;
+}
+#hot-laptopTitle ul li{
+    display: inline-block;
+}
+#hot-laptop{
+    display: flex;
+    height: 318px;
+    
+}
+#hot-laptop div{
+    flex-grow: 1;
+    border: 1px solid black;
+}
+#hot-laptop div:nth-child(1){
+    flex-grow: 2;
+}
+#hot-tabletTitle{
+    display: flex;
+    justify-content: space-between;
+    height: 44px;
+}
+#hot-tabletTitle ul li{
+    display: inline-block;
+}
+#hot-tablet{
+    display: flex;
+    height: 318px;
+    
+}
+#hot-tablet div{
+    flex-grow: 1;
+    border: 1px solid black;
+}
+#hot-tablet div:nth-child(1){
+    flex-grow: 2;
+}
+/* ////////////////// */
+#cheap-accessories{
+    display: flex;
+    justify-content: space-between;
+    height: 44px;
+}
+#cheap-accessories ul li{
+    display: inline-block;
+}
+#accessories-product{
+    display: flex;
+    height: 318px;
+}
+#accessories-product div{
+    flex-grow: 1;
+    border: 1px solid black;
+}
+#apple-accessories{
+    display: flex;
+    justify-content: space-between;
+}
+#apple-accessories li{
+    display: inline-block;
+}
+#apple-product{
+    display: flex;
+    height: 318px;
+}
+#apple-product div{
+    flex-grow: 1;
+    border: 1px solid black;
+}
+#infor1{
+    height: 200px;
+    background: white;
+    border: 1px solid black;
+}
+#infor1 div{
+    height: 200px;
+    width: 1200px;
+    margin: 0 auto;
+}
+#infor1 div {
+    display: flex;
+    justify-content: space-around;
+}
+#infor1 div ul{
+    flex-grow: 1;
+}
+#infor1 div ul li{
+    display: block;
+ 
+}
+#infor2{
+    height: 30px;
+    background: 30px;
+}
+#infor2 p{
+    font-size: 11px;
+    margin-left: 50px;
+}

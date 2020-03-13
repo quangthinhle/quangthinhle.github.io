@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background: #FED700;
+    height: 55px;
+}
+#main-wrap{
+    width: 1200px;
+    height: 55px;
+    margin: 0 auto;
+    background: black;
+}
+#home{
+    float: left;
+}
+#seach-product{
+
+    float: left;
+}
+#main-wrap ul li{
+    display: inline;
+    
+}
+#main-wrap ul li a{
+    color: red;
+    float: left;
+    background: #FED700;
+    float: left;
+    height: 54px;
+    width: 76px;
+    font-size: 10px;
+}
+#sim-card{
+    height: 60px;
+    width: 90px;
+}
+#content{
+    float: left;
+    
+}
+#sidebar{
+    float: right;
+}

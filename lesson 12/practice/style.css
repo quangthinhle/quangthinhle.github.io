@@ -1,0 +1,176 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    overflow-y: scroll;
+}
+/* ===============style for switch button============= */
+/* style cho phan ben ngoai  */
+label.switch-iphone{
+    position: fixed;
+    left: 12px;
+    display: inline-block;
+    width: 90px;
+    height: 40px;
+    position: relative;
+    border-radius: 20px 20px 20px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+/* an checkbox */
+input.checkbox{
+    display: none;
+}
+/* style cho button ben trong */
+.button-slider{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 1px rgb(0, 0, 0);
+    top: 1px;
+    left: 1px;
+}
+/* style cho phan ben ngoai khi check */
+input.checkbox:checked+div{
+    width: 90px;
+    height: 40px;
+    position: absolute;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #00ff00;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    top: -1px;
+    left: -1px;
+}
+/* style phan button ben trong sau khi check */
+input.checkbox:checked+div>div{
+    position: absolute;
+    border-radius: 50%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 1px rgb(0, 0, 0);
+    right: 1px;
+    left: auto;
+}
+.switch-status::after{
+
+    content: "OFF";
+    display: inline-block;
+    font-size: 16px;
+    position: absolute;
+    top: 10px;
+    right: 7px;
+    z-index: -1;
+    
+    
+}
+input.checkbox:checked+div:after{
+    content: "ON";
+    display: inline-block;
+    font-size: 16px;
+    position: absolute;
+    top: 10px;
+    left: 7px;
+    z-index: 10;
+}
+
+/* ================style for Tab================= */
+.tab{
+    position: fixed;
+    left: 300px;
+}
+.header-tab{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+    height: 60px;
+    background-color: red;
+    border-radius: 10px;
+    z-index: 10;
+    box-shadow: 0px 0px 5px #000000;
+}
+.header-tab label{
+    text-align: center;
+    flex-grow: 1;
+    margin: 10px 10px;
+    line-height: 40px;
+}
+.content-tap{
+    position: absolute;
+    width: 900px;
+    height: 300px;
+    border: 1px solid green;
+    top: 50%;
+    left: -100px;
+    overflow-y: scroll;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 10px #000000;
+}
+.content-tap input[name="tabs"],p{
+    display: none;
+    font-size: 30px;
+    text-indent: 50px;
+}
+.content-tap div{
+    position: absolute;
+    top: 40px;
+    left: 20px;
+}
+
+.header-tab label:hover{
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+input#tab1:checked+.content1 p{
+    display: block;
+}
+input#tab2:checked+.content2 p{
+    display: block;
+}
+input#tab3:checked+.content3 p{
+    display: block;
+}
+/* ==============Button css=========== */
+
+#wrapper-button{
+    position: fixed;
+    left: 1200px;
+    top: 300px;
+}
+.button-css{
+    position: relative;
+    width: 250px;
+    height: 80px;
+    background-color: green;
+    border-radius: 40px;
+    box-shadow: 0px 0px 6px #000000;
+}
+.circle-internal{
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    background: rgba(255, 255, 255, 0.4) url(icon.png)  no-repeat ;
+    background-size: cover;
+}
+.button-css::after{
+    content: " HOVER ME";
+    position: absolute;
+    font-size: 20px;
+    top: 30px;
+    right: 25px;
+    color: white;
+    font-weight: bold;
+}
+.button-css:hover{
+    box-shadow: 0px 0px 10px #000000;
+    cursor: pointer;
+}
+

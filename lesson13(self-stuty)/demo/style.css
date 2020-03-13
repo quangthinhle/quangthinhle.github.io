@@ -1,0 +1,13 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+}
+ul li{
+    flex: 1 1 0%;
+}

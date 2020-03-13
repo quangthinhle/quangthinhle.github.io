@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  li {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    display: block;
+  }
+  
+  #wrapper {
+    display: flex;
+    margin: 20px 200px 0 20px;
+    justify-content: space-between;
+  }
+  .under {
+    border-bottom: 2px solid gray;
+    width: 100%;
+  }
+  #VSCode {
+    height: 40px;
+    background: rgb(61, 59, 59);
+    display: flex;
+    width: 600px;
+    margin-right: 100px;
+  }
+  #VSCode > li {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+    width: 200px;
+  }
+  #VSCode > li > a {
+    font-size: 20px;
+    color: white;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  #VSCode li ul {
+    width: 500px;
+    background-color: rgb(65, 65, 65);
+    display: none;
+  }
+  #VSCode > li ul li {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 30px;
+  }
+  #thinh a{
+    width: 100%;
+  }
+  
+  #VSCode > li:hover > a {
+    background-color: grey;
+  }
+  #VSCode li:hover > ul {
+    display: block;
+  }
+  #VSCode > li ul li:hover {
+    background-color: rgb(9, 58, 148);
+  }
+  .see-more {
+    position: relative;
+  }
+  .see-more > a::after {
+    content: " ";
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: 3px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-left: 10px solid white;
+    border-right: 10px solid transparent;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+  }
+  .fly {
+    display: none;
+  }
+  #VSCode > li > ul > li:hover .fly {
+    display: block;
+    position: absolute;
+    left: 100%;
+    top: 0px;
+    border-left: 1.5px solid black;
+  }
+  
+  .check-box {
+    display: block;
+    position: relative;
+    height: 40px;
+    width: 100%;
+  }
+  /* an checkbox mac dinh */
+  .check-box input {
+    position: absolute;
+    opacity: 0;
+    height: 0;
+    width: 0;
+  }
+  .checkmark {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: white;
+  }
+  .checkmark::before {
+    content: " ";
+    position: absolute;
+    display: none;
+  }
+  .check-box input:checked ~ .checkmark::before {
+    display: block;
+  }
+  .check-box .checkmark::before {
+    width: 6px;
+    height: 13px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(33deg);
+    left: -17px;
+    top: 10px;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+  }
+  
+  #tooltip {
+    display: inline-block;
+    position: relative;
+  }
+  #tooltip i {
+    font-size: 40px;
+    color: coral;
+    display: block;
+  }
+  #inf {
+    display: none;
+    min-width: 150px;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    position: absolute;
+    top: 130%;
+    left: 0;
+    transform: translateX(-40%);
+    background-color: cadetblue;
+  }
+  #inf::before {
+    content: " ";
+    width: 0;
+    height: 0;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    border: 10px solid transparent;
+    border-bottom-color: cadetblue;
+  }
+  #tooltip:hover #inf {
+    display: block;
+  }
+  
