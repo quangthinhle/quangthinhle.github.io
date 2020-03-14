@@ -1,0 +1,50 @@
+html, body {
+    height: 100%;
+}
+ul, p {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+body {
+    background-color: #dddada;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+div#wrapper {
+    width: 300px;
+    height: 400px;
+    background-color: #fff;
+    font-size: 20px;
+}
+
+
+
+ul.nav-tab {
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+
+ul.nav-tab li {
+    display: inline-block;
+    padding:  0 15px;
+    line-height: 50px;
+    border-bottom: 1px solid transparent;
+}
+
+ul.nav-tab li a {
+    text-decoration: none;
+    color: red;
+}
+
+.tab-content {
+    padding: 10px;
+}
+
+.tab-content .item {
+    display: none;
+}
+
