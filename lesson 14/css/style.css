@@ -1,0 +1,248 @@
+/* reset css */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#header{
+    height: 50px;
+    width: 100%;
+    background-color: #00ACC1;
+}
+#header>h1{
+    margin: 11.5px 100px;
+    width: 126px;
+    height: 27px;
+    background-image: url(../image/laban_icon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+ 
+}
+
+#content{
+    width: 980px;
+    height: auto;
+    margin: 100px auto;
+}
+.extension{
+    margin-bottom: 50px;
+}
+.extension a{
+    text-decoration: none;
+}
+.extension li{
+    list-style: none;
+}
+.header-extension{
+    border-bottom: 1px solid #00ACC1;
+    height: 30px;
+}
+.header-extension>span{
+    background-color: #00ACC1;
+    display: inline-block;
+    height: 29px;
+    line-height: 29px;
+    padding: 0px 10px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.content-extension{
+    margin-top: 20px;
+}
+.content-extension>ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.content-extension>ul>li{
+    flex-basis: 25%;
+    height: 30px;
+}
+.content-extension>ul>li>a{
+    height: 30px;
+    line-height: 30px;
+    margin-left: 30px;
+    display: inline-block;
+}
+.content-extension>ul>li{
+    background-image: url(../image/icon_extension_seach.png);
+    background-repeat: no-repeat;
+    margin-bottom: 25px;
+}
+
+.content-extension>ul>li:hover>a{
+    font-weight: bold;
+    color: #00ACC1;
+}
+/* style individual for each extension */
+#content-extension-seach>ul>li:nth-child(1){
+    background-image: url(../image/icon1.jpg);
+    background-position: 0px 2px;
+}
+#content-extension-seach>ul>li:nth-child(1)>a:after{
+    content: " ";
+    display: inline-block;
+    height: 10px;
+    width: 30px;
+    background-image: url(../image/hot.gif);
+    background-repeat: no-repeat;
+    margin-left: 8px;
+}
+#content-extension-seach>ul>li:nth-child(2){
+    background-position: 0px -2310px;
+}
+#content-extension-seach>ul>li:nth-child(3){
+    background-position: 0px -265px;
+}
+#content-extension-seach>ul>li:nth-child(3)>a{
+    color: #5DAC00;
+}
+#content-extension-seach>ul>li:nth-child(4){
+    background-image: url(..//image/football_infor.png);
+    background-position: 0px 2px;
+}
+#content-extension-seach>ul>li:nth-child(4)>a:after{
+    content: " ";
+    display: inline-block;
+    height: 10px;
+    width: 30px;
+    background-image: url(../image/new.gif);
+    background-repeat: no-repeat;
+    margin-left: 8px;
+}
+#content-extension-seach>ul>li:nth-child(5){
+    background-position: 0px -2230px;
+}
+#content-extension-seach>ul>li:nth-child(6){
+    background-position: 0px -2230px;
+}
+#content-extension-seach>ul>li:nth-child(7){
+    background-position: 0px -2230px;
+}
+#content-extension-seach>ul>li:nth-child(8){
+    background-position: 0px -2230px;
+}
+#content-extension-seach>ul>li:nth-child(9){
+    background-position: 0px -2230px;
+}
+#content-extension-seach>ul>li:nth-child(10){
+    background-position: 0px -2230px;
+}
+#content-extension-seach>ul>li:nth-child(11){
+    background-position: 0px -2230px;
+}
+#content-extension-seach>ul>li:nth-child(12){
+    background-position: 0px -2230px;
+}
+#content-extension-seach>ul>li:nth-child(13){
+    background-position: 0px -2230px;
+}
+#content-extension-seach>ul>li:nth-child(13)>a:after{
+    content: " ";
+    display: inline-block;
+    height: 10px;
+    width: 30px;
+    background-image: url(../image/hot.gif);
+    background-repeat: no-repeat;
+    margin-left: 8px;
+}
+#content-extension-seach>ul>li:nth-child(14){
+    background-position: 0px -2230px;
+}
+#content-extension-seach>ul>li:nth-child(15){
+    background-position: 0px -2230px;
+}
+#content-extension-seach>ul>li:nth-child(15)>a:after{
+    content: " ";
+    display: inline-block;
+    height: 10px;
+    width: 30px;
+    background-image: url(../image/new.gif);
+    background-repeat: no-repeat;
+    margin-left: 8px;
+}
+#content-extension-seach>ul>li:nth-child(16){
+    background-position: 0px -2230px;
+}
+#content-extension-seach>ul>li:nth-child(17){
+    background-position: 0px -2230px;
+}
+#content-extension-seach>ul>li:nth-child(18){
+    background-position: 0px -2230px;
+}
+#content-extension-seach>ul>li:nth-child(19){
+    background-position: 0px -2230px;
+}
+/* style for content extension pay */
+#content-extension-pay>ul>li:nth-child(1){
+    background-position: 0px -2230px;
+}
+#content-extension-pay>ul>li:nth-child(2){
+    background-position: 0px -2230px;
+}
+#content-extension-pay>ul>li:nth-child(3){
+    background-position: 0px -2230px;
+}
+#content-extension-pay>ul>li:nth-child(4){
+    background-position: 0px -2230px;
+}
+#content-extension-pay>ul>li:nth-child(5){
+    background-position: 0px -2230px;
+}
+#content-extension-pay>ul>li:nth-child(6){
+    background-position: 0px -2230px;
+}
+/* style for content extension entertainment */
+#content-extension-entertainment>ul>li:nth-child(1){
+    background-position: 0px -2230px;
+}
+#content-extension-entertainment>ul>li:nth-child(2){
+    background-position: 0px -2230px;
+}
+#content-extension-entertainment>ul>li:nth-child(3){
+    background-position: 0px -2230px;
+}
+#content-extension-entertainment>ul>li:nth-child(4){
+    background-position: 0px -2230px;
+}
+#content-extension-entertainment>ul>li:nth-child(5){
+    background-position: 0px -2230px;
+}
+#content-extension-entertainment>ul>li:nth-child(6){
+    background-position: 0px -2230px;
+}
+#content-extension-entertainment>ul>li:nth-child(7){
+    background-position: 0px -2230px;
+}
+#content-extension-entertainment>ul>li:nth-child(8){
+    background-position: 0px -2230px;
+}
+/* style for content extension thematic */
+#content-extension-thematic>ul>li:nth-child(1){
+    background-position: 0px -2230px;
+}
+#content-extension-thematic>ul>li:nth-child(2){
+    background-position: 0px -2230px;
+}
+#content-extension-thematic>ul>li:nth-child(3){
+    background-position: 0px -2230px;
+}
+#content-extension-thematic>ul>li:nth-child(4){
+    background-position: 0px -2230px;
+}
+#content-extension-thematic>ul>li:nth-child(5){
+    background-position: 0px -2230px;
+}
+#content-extension-thematic>ul>li:nth-child(6){
+    background-position: 0px -2230px;
+}
+
+/* media queries */
+@media only screen and (max-width: 768px) {
+    .content-extension>ul{
+        display: block;
+    }
+    #header>h1{
+        margin: 11.5px 30%;
+    }
+  }
