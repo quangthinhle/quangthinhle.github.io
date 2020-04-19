@@ -1,0 +1,124 @@
+/* resert css */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h3{
+    color: #ffffff;
+    text-transform: capitalize;
+    font-size: 13px;
+    width: 150px;
+}
+img{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    
+}
+a{
+    font-size: 12px;
+    color: #a0a0a0;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+/* ******************* */
+.wrapper{
+    background-color: #2F2646;
+    width: 355px;
+    height: 400px;
+    margin: 200px auto;
+    padding: 10px 5px;
+}
+.wrapper>ul{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.wrapper .cover{
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 13px;
+    left: 55px;
+    display: none;
+
+}
+.wrapper span{
+    height: 0px;
+    width: 0px;
+    border-top: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-7px);
+
+}
+.wrapper>ul>li{
+    border-radius: 2px;
+    padding: 5px;
+    flex: 1 1 0%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.wrapper>ul>li>.music-name{
+    margin-left: 10px;
+}
+.wrapper>ul>li:hover{
+    background-color: #53496D;
+}
+.wrapper>ul>li:hover .cover{
+    display: block;
+}
+.wrapper>ul{
+    counter-reset: section;
+}
+.wrapper>ul>li::before{
+    counter-increment: section;
+    content: "0" counter(section) " ";
+    margin: auto 10px auto 20px;
+    font-size: 20px;
+}
+
+.wrapper>ul>li:nth-child(n){
+    color: #ffffff;
+}
+.wrapper>ul>li:nth-child(1){
+    color: #5067B9;
+    position: relative;
+}
+.wrapper>ul>li:nth-child(1)::after{
+    content: "58%";
+    position: absolute;
+    right: 10px;
+    bottom: 50%;
+    transform: translateY(50%);
+}
+.wrapper>ul>li:nth-child(2){
+    color: #50E3C2;
+    position: relative;
+}
+.wrapper>ul>li:nth-child(2)::after{
+    content: "58%";
+    position: absolute;
+    right: 10px;
+    bottom: 50%;
+    transform: translateY(50%);
+}
+.wrapper>ul>li:nth-child(3){
+    color: #D31118;
+    position: relative;
+}
+.wrapper>ul>li:nth-child(3)::after{
+    content: "58%";
+    position: absolute;
+    right: 10px;
+    bottom: 50%;
+    transform: translateY(50%);
+}
