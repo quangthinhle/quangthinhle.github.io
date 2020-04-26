@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("font/Roboto/Roboto-Bold.ttf");
+  }
+@font-face {
+    font-family: "Roboto-Light";
+    src: url("font/Roboto/Roboto-Light.ttf");
+  }
+body{
+    margin-top: 20px;
+    font-family: Roboto-Light;
+}
+.container{
+    max-width: 1030px;
+    width: 90%;
+    margin: 0px auto;
+}
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+}
+li{
+    list-style: none;
+
+}
+h3{
+    text-transform: uppercase;
+    font-size: 16px;
+}
+nav{
+    width: 900px;
+}
+.menu-main{
+    display: flex;
+    justify-content: space-between;
+}
+.menu-main li{
+    position: relative;
+}
+.menu-main li:nth-child(8) .menu-sub{
+    width: 100px;
+    text-transform: capitalize;
+}
+.menu-main li:nth-child(8) .menu-sub h3{
+    text-transform: capitalize;
+}
+.menu-main>li{
+    padding-bottom: 15px;
+    
+}
+.menu-main>li>a{
+    text-transform: uppercase;
+    font-family: Roboto;
+    color: #32323d;
+}
+.menu-sub{
+    margin-top: 2px;
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 3px 2px 5px 2px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    display: none;
+}
+.menu-sub ul li,h3{
+    margin: 10px;
+}
+.menu-main>li:first-child a{
+    color:#846FBF;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #65509E;
+}
+.menu-main>li:last-child a{
+    display: block;
+    text-indent: -10000px;
+    background-image: url(image/VIP-1x.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 25px;
+    margin-bottom: -15px;
+    margin-left: 20px;
+}
+.menu-main>li:hover>a{
+    color:#846FBF;
+}
+.menu-main>li:not(:last-child):hover{
+    border-bottom: 2px solid #65509E;
+    margin-bottom: -2px;
+}
+.menu-main li:hover .menu-sub{
+    display: flex;
+}
+.menu-col-1{
+    flex: 1 1 0%;
+}
+/* ////////////////////// */
+.image-main{
+    margin-top: 2px;
+    height: 340px;
+    width: 100%;
+    background-image: url(image/music-cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+ }
+.list-image{
+    margin: 0px 30px 15px 0px;
+    display: none;
+}
+.list-image>img{
+    width: 58px;
+    height: 58px;
+    padding: 2px;
+}
+.list-image>img:hover{
+    border: 2px solid #fff;
+    padding: 0px;
+}
+.image-main:hover .list-image{
+    display: block;
+}
+.image-main-add1{
+   background-image: url(image/image_background_01.jpg);
+}
+.image-main-add2{
+   background-image: url(image/image_background_02.jpg);
+}
+.image-main-add3{
+   background-image: url(image/image_background_03.jpg);
+}
+.image-main-add4{
+   background-image: url(image/image_background_04.jpg);
+}
+.image-main-add5{
+   background-image: url(image/image_background_05.jpg);
+}
+
