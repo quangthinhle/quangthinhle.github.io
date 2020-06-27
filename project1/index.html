@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-3">
+                <div class="img-item">
+                    <img src="dong-ho.png" alt="dong ho">
+                    <div class="cover-img">
+
+                    </div>
+                </div>
+                <div class="description">
+                    <h2>MICHAEL KORS</h2>
+                    <span>Đồng Hồ Nữ MICHAEL KORS mặt đính đá kim cương</span>
+                </div>
+                <div class="price">
+                    <span>420000000000d</span>
+                </div>
+                
+            </div>
+            <div class="col-xl-3">
+
+            </div>
+            <div class="col-xl-3">
+
+            </div>
+            <div class="col-xl-3">
+
+            </div>
+            <div class="col-xl-3">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<style>
+    .container{
+        width: 1520px;
+        margin: 50px auto;
+    }
+    .row{
+        width: 100%;
+        height: 430px;
+        display: flex;
+    }
+    .col-xl-3{
+        margin: 0px 10px;
+        /* background-color: red; */
+        flex: 1 0 0;
+        padding: 0px 10px;
+        box-shadow: 5px 5px 5px 5px #888888;
+    }
+    .col-xl-3:first-child{
+        margin-left: 0px;
+    }
+    .col-xl-3:last-child{
+        margin-right: 0px;
+    }
+    .col-xl-3{
+        position: relative;
+    }
+    .col-xl-3{
+        box-shadow: 5 5 5 5 black;
+    }
+    .col-xl-3 .img-item img{
+       
+        width: 100%;
+        height: 300px;
+        position: relative;
+    }
+    .col-xl-3 .img-item .cover-img{
+        width: 0px;
+        height: 0px;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        transition: width 1s, height 1s;
+
+    }
+    .col-xl-3 .img-item:hover .cover-img{
+        width: 100%;
+        height: 300px;
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+    .col-xl-3 .description{
+        margin: 0px 0px 10px 0px;
+    }
+    .col-xl-3 .description h2{
+        text-align: center;
+        text-transform: uppercase;
+        margin: 5px 0px;
+    }
+    .col-xl-3 .description span{
+        text-align: left;
+    }
+    .col-xl-3 .price{
+        text-align: center;
+    }
+    .col-xl-3 .price span{
+        text-align: center;
+        font-weight: bold;
+    }
+    .col-xl-3::after{
+        content: ' ';
+        width: 0px;
+        height: 3px;
+        background-color:blue;
+        position: absolute;
+        top: 100%;
+        left: 0px;
+        transition: width 1s;
+    }
+    .col-xl-3:hover::after{
+        width: 100%;
+    }
+
+</style>
